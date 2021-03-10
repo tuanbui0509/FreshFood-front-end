@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <!-- BEGIN MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="fas fa-house-user"></i>
+            </a>
+        </div>
+
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class="fas fa-smile"></i>
+            </a>
+        </div>
+
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class="fas fa-hamburger"></i>
+            </a>
+        </div>
+
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- BEGIN BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-utensils"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+
+    <!-- BEGIN TOP NAV -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">FreshFood</div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+
+                <a href="#testimonial">
+                    <div class="menu-item">
+                        Testimonials
+                    </div>
+                </a>
+            </div>
+
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- END TOP NAV -->
+
+    <!-- BEGIN SECTION HOME -->
+    <section id="home" class="fullheight align-item-center bg-img bg-img-fixed"
+        style="background-image: url(assets/images/brooke-lark.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">FreshFood</h1>
+                        <p class="left-to-right play-on-scroll delay-4">
+                            FreshFood Services is a leading Australian coffee manufacturer who specialises in providing
+                            complete business coffee solutions for your business.
+                        </p>
+                        <div class="left-to-right play-on-scroll delay-6"> <button>Order Now</button></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION HOME -->
+
+    <!-- BEGIN SECTION ABOUT -->
+    <div class="fullheight align-item-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 col-md-6 h-xs">
+                    <img src="./assets/images/dan-gold-4.jpg" alt="" class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-item-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3> <span class="primary-color">We</span> create <span class="primary-color">delicious</span>
+                            for <span class="primary-color">you</span> </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis modi, quia
+                            illum
+                            deleniti adipisci doloremque enim maxime error quas obcaecati exercitationem aliquid
+                            ea
+                            dignissimos option
+                            ad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECTION ABOUT -->
+
+    <!-- BEGIN FOOD MENU SECTION -->
+    <section class="align-item-center bg-img bg-img-fixed" id="food-menu-section"
+        style="background-image: url(assets/images/katherine-chase.jpg);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>What will <span class="primary-color">you</span> eat tonight </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae minima corrupti tempore,
+                    totam natus quas corporis aliquam reiciendis eveniet. Cumque sed officiis sequi ab rerum reiciendis
+                    odit. Cum et laudantium sapiente.</p>
+
+                <div class="food-categories">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">All food</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="salad">Salad</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="vegetables">Vegetables</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="beans">Beans</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="salmon">Salmon</button>
+                    </div>
+                </div>
+                <div class="food-item-wrap all">
+                    <div class="food-item salad-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/anh-nguyen.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="food-item salad-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/sina-piryae.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item salad-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/jonathan-farber.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item beans-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/beans.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="food-item beans-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/beans3.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item beans-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/beans2.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item vegetables-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/vegetable1.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="food-item vegetables-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/vegetable2.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item vegetables-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/vegetable3.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item salmon-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/salmon4.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="food-item salmon-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/salmon3.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item salmon-type">
+                        <div class="item-wrap play-on-scroll bottom-up">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(./assets/images/salmon2.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem, ipsum.</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="fas fa-cart-plus"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+
+
+    <!-- BEGIN TESTIMONIAL -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quia magni eaque
+                                exercitationem animi magnam, facilis tempore provident corporis cum nesciunt vel quod
+                                ullam debitis?</p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(./assets/images/close-up-portrait-cute.jpg);">
+
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quia magni eaque
+                                    exercitationem animi magnam, facilis tempore provident corporis cum nesciunt vel
+                                    quod
+                                    ullam debitis?</p>
+                                <div class="review-img bg-img"
+                                    style="background-image: url(./assets/images/portrait-happy-young.jpg);">
+
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-6 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quia magni eaque
+                                exercitationem animi magnam, facilis tempore provident corporis cum nesciunt vel quod
+                                ullam debitis?</p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(./assets/images/michael-dam.jpg);">
+
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL -->
+
+    <!-- BEGIN FOOTER -->
+    <div class="footer bg-img" style="background-image: url(./assets/images/nordwood-themes.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-6 col-xs-12">
+                    <h1>FreshFood</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis exercitationem cum molestias rem
+                        quod quia harum magni sint repellat libero odio praesentium ducimus, culpa nulla corporis
+                        nostrum provident vitae tempore? Ipsam, animi!</p>
+                    <br>
+                    <p>Email: tuanbui0509@gmail.com</p>
+                    <p>Phone: +84 936 557 991</p>
+                    <p>Website: freshfood.com</p>
+                </div>
+                <div class="col-2 col-md-6 col-xs-12">
+                    <h1>About us</h1>
+                    <br>
+                    <p>
+                        <a href="#">Chefs</a>
+                    </p>
+
+                    <p>
+                        <a href="#">Menu</a>
+                    </p>
+                    <p>
+                        <a href="#">Testimonials</a>
+                    </p>
+                    <p>
+                        <a href="#">food</a>
+                    </p>
+                </div>
+
+                <div class="col-4 col-md-8 col-xs-12">
+                    <h1>Subscribe & media</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores consequatur libero placeat
+                        et, delectus ex itaque vitae ut culpa animi iure repudiandae enim totam?</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email" name="" id="">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
